@@ -1,15 +1,43 @@
 # MyZoo
 
-A modern web application built with Next.js, featuring authentication and a clean UI powered by Tailwind CSS.
+A modern veterinary clinic management system built with Next.js, featuring appointment booking, service management, and a clean UI powered by Tailwind CSS.
 
 ## 🚀 Features
 
-- **Next.js 14** - React framework for server-rendered applications
+- **Clinic Overview** - Beautiful homepage with hero banner and clinic introduction
+- **Service Catalog** - Detailed sections for all treatments and care services
+- **Appointment System** - Easy-to-use booking form for scheduling visits
+- **Responsive Design** - Fully responsive layout that works on all devices
+- **Modern Stack** - Built with Next.js 15, TypeScript, and Tailwind CSS
+- **Secure Authentication** - Complete user authentication with NextAuth.js
+
+## 🛠️ Technologies Used
+
+### Core
+- **Next.js 15.3.1** - React framework for server-side rendering and static site generation
+- **React 19** - JavaScript library for building user interfaces
 - **TypeScript** - Type-safe JavaScript for better developer experience
-- **NextAuth.js** - Complete authentication solution
-- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
-- **Responsive Design** - Works on mobile, tablet, and desktop
-- **Modern Tooling** - ESLint, Prettier, and TypeScript setup
+- **Tailwind CSS** - Utility-first CSS framework for styling
+
+### Authentication
+- **NextAuth.js 5.0.0-beta.27** - Authentication for Next.js applications
+
+### UI Components
+- **Lucide React 0.503.0** - Beautiful & consistent icon toolkit
+- **Date-fns 4.1.0** - Modern date utility library
+
+### Development Tools
+- **ESLint** - JavaScript/TypeScript linter
+- **TypeScript** - Type checking
+- **Turbopack** - Fast Rust-based bundler (used in dev script)
+
+### Build & Package Management
+- **npm** - Package manager
+- **Node.js** - JavaScript runtime (required version 18.0.0 or later)
+
+### Configuration
+- **PostCSS** - CSS processing
+- **Tailwind CSS PostCSS plugin** - For processing Tailwind CSS
 
 ## 📦 Prerequisites
 
@@ -19,12 +47,14 @@ A modern web application built with Next.js, featuring authentication and a clea
 ## 🛠️ Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/AbdallhElzorkany/myzoo.git
    cd myzoo
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
