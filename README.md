@@ -1,5 +1,5 @@
-# MyZoo
-
+# MyZoo - Dead API
+# API is no longer available so I have deleted the hosting.
 A modern veterinary clinic management system built with Next.js, featuring appointment booking, service management, and a clean UI powered by Tailwind CSS.
 
 ## 🚀 Features
